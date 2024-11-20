@@ -1,0 +1,38 @@
+<resources>
+
+    <string name="app_name">ZSecurityAlert</string>
+    <string name="splash_image_desc">ZAlert Security Shield</string>
+    <string name="stay_safe">Stay safe</string>
+    <string name="alert_message">By letting us alert you if we spot a risk</string>
+    <string name="windows_logo">Windows Logo</string>
+    <string name="processing">Processing...</string>
+
+
+    <string name="welcome_string">Welcome to zAlert</string>
+    <string name="home_description">All-in-one zebra security app to keep you safe from malicious activities on Zebra enterprise devices.</string>
+    <string name="start_button">Get Started</string>
+    <string name="agreement_policy_message">By proceeding, you confirm you accept zAlert\'s Agreement and Privacy policy.</string>
+    <string name="loading">Loading details…</string>
+    <string name="hello">Hello zAlert User</string>
+
+    <string name="sub_text">By letting us alert you if we spot a risk</string>
+    <string name="title">Z Alert</string>
+    <string name="protected_text">You Are Protected</string>
+    <string name="last_scan">Last scan 20 minutes ago</string>
+    <string name="scan">Scan Now</string>
+
+    <string name="back_button">back</string>
+    <string name="security">Security</string>
+    <string name="scanned_item_list">Scanned Items List </string>
+    <string name="total">Total 10 </string>
+    <string name="api_usage">API Usage</string>
+    <string name="api_usage_desc">Deprecated and Hidden APIs</string>
+    <string name="network">Network Security</string>
+    <string name="network_desc">Cleartext Traffic </string>
+    <string name="wifi">Wi-Fi Security</string>
+    <string name="wifi_desc">Secure Network</string>
+    <string name="cryptography">Cryptography</string>
+    <string name="cryptography_desc">Unsafe Algorithms</string>
+    <string name="data_leakage">Data Leakage</string>
+    <string name="data_leakage_desc">Data Leakage</string>
+</resources>

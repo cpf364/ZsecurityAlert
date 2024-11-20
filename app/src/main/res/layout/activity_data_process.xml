@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="16dp">
+
+    <!-- Top app logo or icon -->
+    <FrameLayout
+        android:id="@+id/frame_layout"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:src="@drawable/security_logo" />
+
+    <!-- Cloud Image or Decorative Icon -->
+    <ImageView
+        android:id="@+id/cloud_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_logo" />
+    </FrameLayout>
+    <!-- Title text -->
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/frame_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/stay_safe"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+    <!-- Subtitle text -->
+    <TextView
+        android:id="@+id/subtitle_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/alert_message"
+        android:textColor="@color/gray"
+        android:textSize="16sp" />
+
+    <!-- Windows logo -->
+    <ImageView
+        android:id="@+id/windows_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/subtitle_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/windows_logo"
+        android:src="@drawable/ic_windows_logo" />
+
+
+    <TextView
+        android:id="@+id/processing_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/windows_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/processing"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+</RelativeLayout>
